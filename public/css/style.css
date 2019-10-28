@@ -1,0 +1,70 @@
+body{
+	background-color: #fff;
+	height: 100%;
+	
+}
+
+.box1{
+
+	background-image: url("/img/1.jpg");
+	height: 600px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: .7;
+	
+  }
+
+  .mensagem{
+
+	background-image: url("/img/mensagem.jpg");
+	height: 600px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: .9;
+	
+  }
+
+  .div-titulo{
+	  margin: 0 auto;
+	  margin-top: 14em;
+  }
+  .tit{
+	  padding-left: 1em;
+  }
+  .leg-tit{
+		 color: #fff; 
+}
+
+#form-contato{
+	border: 1px solid #DCDCDC;
+	border-radius: 10px;
+	padding: 20px;
+}
+
+.tit-contato{
+	margin-top: 20px;
+}
+
+#card-mensagem{
+	width: 50rem;
+	margin: 0 auto;
+	background: #e5e5e5;
+}
+
+#card-mensagem .card-title{
+	font-size: 1.4em;
+	color: #000;
+}
+
+.italico {
+	font-style: italic;
+  }
+
+
+.table-mensagem{
+	padding: 30px;
+}
+
+

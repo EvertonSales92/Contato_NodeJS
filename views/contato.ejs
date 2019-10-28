@@ -1,0 +1,46 @@
+<%- include partials/head.ejs %>
+<%- include partials/header.ejs %>
+
+
+<h1 class="display-4 text-center tit-contato">Entre em contato conosco</h1>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <form method="POST" action="/salvacontato" id="form-contato">
+                <div class="form-group">
+                    <label>Nome</label>
+                    <input type="text" name="nome" placeholder="Nome" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label>Último Nome</label>
+                    <input type="text" name="ultimoNome" placeholder="Último Nome" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label>E-mail</label>
+                    <input type="email" name="email" placeholder="Email" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label>Telefone</label>
+                    <input type="text" name="telefone" placeholder="Ex: (11) 9999- 0000" class="form-control">
+                </div>
+
+                <div class="form-group">
+                        <label>Titulo</label>
+                        <input type="text" name="titulo" placeholder="Titulo" class="form-control">
+                </div>
+    
+
+                <div class="form-group">
+                    <label>Dúvida / Sugestões</label>
+                    <textarea name="descricao" class="form-control"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<%- include partials/footer.ejs %>
