@@ -1,0 +1,16 @@
+1 - npm init
+2 - criar o index js
+3 - Instalar o express - $ npm install express --save
+4 - Instalar o EJS  - npm install ejs
+5 -npm install -g nodemon
+6 -npm install body-parser --save  
+7 - Sequelize ORM - npm install --save sequelize
+8 - Para o Sequelize funcionar com MYSQL = npm install --save mysql2
+
+
+https://blog.rocketseat.com.br/nodejs-express-sequelize/
+
+https://medium.com/trainingcenter/enviando-e-mails-com-node-js-73a45872e53a
+
+https://www.youtube.com/watch?v=NB71vyCj2X4
+Shift+Alt+A      Toggle Block Comment
