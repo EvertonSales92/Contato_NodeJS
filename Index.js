@@ -20,7 +20,7 @@ connection
         console.log('Conexao feita com o banco de dados!')
     })
     .catch((msgErro) => {
-        console.log(msgErro);
+        console.log('DEU RUIM');
     })
 
 
@@ -110,4 +110,4 @@ app.get("/detalhemensagem/:id", (req, res) => {
     });
 })
 
-app.listen(3000, () => { console.log("Servidor Ok") })
+app.listen(3333, () => { console.log("Servidor Ok") })
