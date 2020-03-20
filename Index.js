@@ -20,7 +20,7 @@ connection
         console.log('Conexao feita com o banco de dados!')
     })
     .catch((msgErro) => {
-        console.log('DEU RUIM');
+        console.log(msgErro);
     })
 
 
